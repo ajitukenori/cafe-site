@@ -1,27 +1,29 @@
-body{
+body {
     width: 100%;
     min-width: 1200px;
     background-color: #e2e3e1;
 }
 
-header{
+header {
     width: 100%;
     min-width: 75rem;
     position: relative;
     height: 50vh;
 }
 
-main{
+main {
     width: 100%;
     margin: 0;
     min-width: 75rem;
     position: relative;
     overflow: hidden;
 }
-.nav{
+
+.nav {
     position: relative;
 }
-nav{
+
+nav {
     text-align: center;
     position: fixed;
     display: block;
@@ -30,17 +32,21 @@ nav{
     z-index: 999;
     background: rgba(255, 255, 255, .9);
 }
-.icon{
+
+.icon {
     position: absolute;
     top: 2.6rem;
     right: 25%;
 }
-.icon li{
+
+.icon li {
     display: inline-block;
 }
-.menu-ber li{
+
+.menu-ber li {
     display: inline-block;
 }
+
 /*div, ul, li, dl, dt, dd, section{
     padding: 0;
     margin: 0;
@@ -52,28 +58,32 @@ h1, h2, h3, h4, span, address{
     font-style: normal;
     border: 0;
 }*/
-img{
+img {
     opacity: 1;
 }
-.hdr{
+
+.hdr {
     background: url(/image/header/background.jpeg) no-repeat center top;
     background-size: cover;
     position: absolute;
     width: 100%;
     min-height: 50vh;
 }
-.hdr-main{
+
+.hdr-main {
     position: absolute;
     top: 10rem;
     width: 100%;
 }
-.logo{
+
+.logo {
     text-align: center;
     padding-top: 6.25rem;
     margin: 0;
     padding: 0;
 }
-.hdr h1{
+
+.hdr h1 {
     font-size: inherit;
     color: #ffffff;
     position: absolute;
@@ -83,31 +93,37 @@ img{
     border-bottom: 1px solid rgba(255, 255, 255, .5);
     line-height: 2.5rem;
 }
-.logo-text{
+
+.logo-text {
     width: 100%;
     margin: 0 auto;
     position: absolute;
     text-align: center;
     top: 17rem;
 }
-.ln-inf1{
+
+.ln-inf1 {
     width: 100%;
     padding-bottom: 7.8125rem;
 }
-.lunch-bg{
+
+.lunch-bg {
     background: url(/image/logo/section1/back.png) no-repeat center top;
     background-size: cover;
 }
-.lunch-edge{
+
+.lunch-edge {
     background: url(/image/logo/section1/edge.png) repeat-x center top;
 }
-.ln-inf1{
+
+.ln-inf1 {
     background: url(/image/logo/section1/photo.png) no-repeat center top 3rem;
     position: relative;
     text-align: center;
     margin-bottom: -3.75rem;
 }
-.ln-txt1{
+
+.ln-txt1 {
     color: #243758;
     font-size: 21px;
     font-weight: bold;
@@ -116,38 +132,46 @@ img{
     letter-spacing: 4px;
     line-height: 41px;
 }
-.ln-txt2 p{
+
+.ln-txt2 p {
     padding-bottom: 32px;
     line-height: 2rem;
 }
-.ln-inf2{
+
+.ln-inf2 {
     background: url(/image/logo/section1/inf2.jpeg) no-repeat center bottom;
     background-size: cover;
     background-attachment: fixed;
     height: 380px;
 }
-.Menu{
+
+.Menu {
     background: url(/image/logo/section2/base.png)repeat center top;
 }
-.mn-bg{
+
+.mn-bg {
     background: url(/image/logo/section2/background.png)no-repeat center top;
     background-size: cover;
 }
-.mn-edge{
+
+.mn-edge {
     background: url(/image/logo/section2/edge.png) repeat-x center top;
 }
-.mn-inf1{
+
+.mn-inf1 {
     position: relative;
     text-align: center;
 
 }
-.txt-Set{
+
+.txt-Set {
     padding-top: 10px;
     padding-bottom: 25px;
     line-height: 32px;
-    
+
 }
-.price{
+
+.price {
     background: url(/image/logo/section2/price.png)no-repeat center top;
     font-size: 1.375rem;
     font-weight: lighter;
@@ -155,30 +179,36 @@ img{
     padding-top: 20px;
     padding-bottom: 13px;
 }
-.amount{
+
+.amount {
     font-size: 2rem;
     font-weight: bold;
 }
-.pst{
+
+.pst {
     height: 45rem;
     background: url(/image/logo/section2/photo.png)no-repeat center top;
     background-size: cover;
 }
-.pst-inf1{
+
+.pst-inf1 {
     width: 1000px;
     margin: auto;
     position: relative;
     padding-top: 7.8rem;
     min-height: 45rem;
 }
-.pst-set{
+
+.pst-set {
     text-align: center;
     width: 30rem;
 }
-.pst-logo{
+
+.pst-logo {
     position: relative;
 }
-.ruby{
+
+.ruby {
     position: absolute;
     color: #231f20;
     top: 1.6rem;
@@ -187,25 +217,29 @@ img{
     font-weight: bold;
     line-height: 1.25rem;
 }
-.pst-set p{
+
+.pst-set p {
     padding-top: 1.5rem;
     padding-bottom: 0.8rem;
     font-size: 1.2rem;
     font-weight: lighter;
 }
-.pst-name{
+
+.pst-name {
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 4rem;
     color: #231f20;
     font-weight: bold;
 }
-.rc{
+
+.rc {
     background: url(/image/logo/section2/photo3.png) no-repeat center top;
     background-size: cover;
     height: 40rem;
 }
-.rc-inf{
+
+.rc-inf {
     margin: auto;
     width: 1000px;
     position: relative;
@@ -213,26 +247,31 @@ img{
     padding-top: 6rem;
     padding-left: 35rem;
 }
-.rc-set{
+
+.rc-set {
     text-align: center;
     width: 28rem;
 }
-.rc-logo{
+
+.rc-logo {
     position: relative;
 }
-.rc-set p{
+
+.rc-set p {
     padding-top: 1.5rem;
     padding-bottom: 1.2rem;
     font-size: 1.2rem;
     font-weight: lighter;
 }
-.piz{
+
+.piz {
     background: url(/image/logo/section2/photo2.png) no-repeat center top;
     background-size: cover;
     height: 45rem;
     position: relative;
 }
-.piz-inf{
+
+.piz-inf {
     margin: auto;
     width: 1000px;
     position: relative;
@@ -240,14 +279,17 @@ img{
     padding-top: 8rem;
     padding-left: 3.2rem;
 }
-.piz-set{
+
+.piz-set {
     text-align: center;
     width: 28rem;
 }
-.piz-logo{
+
+.piz-logo {
     position: relative;
 }
-.pix-ruby{
+
+.pix-ruby {
     position: absolute;
     color: #231f20;
     top: 1.6rem;
@@ -256,32 +298,39 @@ img{
     font-weight: bold;
     line-height: 1.25rem;
 }
-.piz-set p{
+
+.piz-set p {
     padding-top: 1.5rem;
     padding-bottom: 3.5rem;
     font-size: 1.2rem;
 }
-.product{
+
+.product {
     padding-top: 1.25rem;
     padding-left: 3rem;
     font-size: 0.95rem;
     line-height: 2rem;
 }
-.weekly{
+
+.weekly {
     padding-top: 3.5rem;
 }
-.weekly-bg{
+
+.weekly-bg {
     background: url(/image/logo/section3/background.png) repeat-y center top;
 }
-.weekly-inf1{
+
+.weekly-inf1 {
     position: relative;
     margin: auto;
     width: 1000px;
 }
-.weekly-logo{
+
+.weekly-logo {
     text-align: center;
 }
-.all{
+
+.all {
     position: absolute;
     top: 15.3rem;
     right: 24.5rem;
@@ -289,55 +338,65 @@ img{
     font-size: 1.1rem;
     font-weight: bold;
 }
-.wkl-amount{
+
+.wkl-amount {
     font-size: 2rem;
 }
-.exs{
+
+.exs {
     position: absolute;
     top: 21rem;
     right: 23rem;
-    
+
     font-size: 1rem;
 }
-.weekly-inf2{
+
+.weekly-inf2 {
     background: url(/image/logo/section3/photo.png) no-repeat center top 2rem;
     height: 50rem;
 }
-.wkl-whole{
+
+.wkl-whole {
     margin: auto;
     width: 1000px;
     position: relative;
 }
-.pick-up{
+
+.pick-up {
     position: absolute;
     top: 4rem;
     left: 25.5rem;
 }
-.tate{
+
+.tate {
     position: absolute;
     writing-mode: vertical-rl;
     height: 15rem;
     top: 25rem;
     left: 48rem;
 }
-.pu-menu{
+
+.pu-menu {
     position: absolute;
     top: 11rem;
     left: 37.5rem;
     font-size: 1.7rem;
     line-height: 2.8rem;
 }
-.drink-bg{
+
+.drink-bg {
     background: url(/image/logo/section3/line.png) center top;
     text-align: center;
     position: relative;
 }
-.drink-inf1{
+
+.drink-inf1 {
     width: 1000px;
     margin: auto;
     position: relative;
 }
-.drink-txt{
+
+.drink-txt {
     position: absolute;
     top: 2rem;
     left: 25rem;
@@ -345,132 +404,162 @@ img{
     font-size: 1.6rem;
     line-height: 3rem;
 }
-.tnwh{
+
+.tnwh {
     font-size: 1.3rem;
 }
-.plus{
+
+.plus {
     color: #004c8a;
 }
-.menu-img{
+
+.menu-img {
     position: absolute;
     left: -3.2rem;
     top: -11.5rem;
 }
-.coffee-img{
+
+.coffee-img {
     position: absolute;
     left: 45rem;
     top: -10.5rem;
 }
-.drink-inf3{
+
+.drink-inf3 {
     padding-top: 15rem;
     width: 1000px;
     margin: auto;
 }
-.drink-whole{
+
+.drink-whole {
     position: relative;
 }
-.cfe-menu{
+
+.cfe-menu {
     position: relative;
     height: 27rem;
 }
-.frm-top{
+
+.frm-top {
     background: url(/image/logo/section3/top.png) no-repeat;
     height: 27rem;
 }
-.frm-buttom{
+
+.frm-buttom {
     background: url(/image/logo/section3/buttom.png) no-repeat;
     background-position: bottom left;
     height: 27rem;
     padding: 1rem 0;
 }
-.frm-side{
-    background: url(/image/logo/section3/lateral.png) repeat-y ;
+
+.frm-side {
+    background: url(/image/logo/section3/lateral.png) repeat-y;
     height: 25rem;
 }
-.soft-menu{
+
+.soft-menu {
     position: absolute;
     height: 27rem;
     top: 0;
     left: 25rem;
-}    
-.menu-font{
+}
+
+.menu-font {
     padding: 0 3rem;
     line-height: 1.5rem;
     font-size: 0.9rem;
 }
-.dinner-button{
+
+.dinner-button {
     text-align: center;
-    
+
 }
-.dinner-button img{
+
+.dinner-button img {
     transition: all .5s 0s ease;
 }
-.dinner-button img:hover{
+
+.dinner-button img:hover {
     opacity: 0.5;
 }
-.cafe-line{
+
+.cafe-line {
     background: url(/image/logo/section4/blackline.png)repeat-x center top;
     height: 0.5rem;
 }
-.cafe{
+
+.cafe {
     width: 100%;
     position: relative;
 }
-.slider-info{
+
+.slider-info {
     width: 100%;
     text-align: center;
 }
-.back-slide{
+
+.back-slide {
     height: 580px;
     width: 100%;
 }
-.slide-img{
+
+.slide-img {
     width: 100%;
     height: 100%;
 }
-.slide-img img{
+
+.slide-img img {
     width: 100%;
     height: 580px;
     object-fit: cover;
 }
-.cafe-logo{
+
+.cafe-logo {
     position: absolute;
     width: 1000px;
     top: 0;
     text-align: center;
 }
-.cafe-text{
+
+.cafe-text {
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 3rem;
 }
-.cafe-text2{
+
+.cafe-text2 {
     color: #fff;
     line-height: 2rem;
 }
-.cafe-text2 p{
+
+.cafe-text2 p {
     margin-bottom: 3rem;
 }
-.dessert{
+
+.dessert {
     background: url(/image/logo/section5/background.png)no-repeat center top 0.7rem;
     min-height: 70rem;
 }
-.dst-info{
+
+.dst-info {
     width: 1000px;
     margin: auto;
     position: relative;
 }
-.dst-logo{
+
+.dst-logo {
     position: absolute;
     top: 1.8rem;
 }
-.dst-price{
+
+.dst-price {
     position: absolute;
     top: 26.5rem;
     color: #231f20;
 }
-.dst-product{
+
+.dst-product {
     background: url(/image/logo/section5/line.png) repeat-x center bottom;
     width: 25.6rem;
     height: 3.5rem;
@@ -478,75 +567,91 @@ img{
     font-size: 1.3rem;
     padding: 1rem 0;
 }
-.dst-name{
+
+.dst-name {
     float: left;
     padding-left: 1rem;
 }
-.dst-amount{
+
+.dst-amount {
     float: right;
     padding-right: 1rem;
 }
-.dst-text{
+
+.dst-text {
     position: absolute;
     top: 45rem;
     left: 10rem;
     color: #a57f2f;
-    
+
 }
-.mille{
+
+.mille {
     font-size: 2.1rem;
     letter-spacing: 0.3rem;
     line-height: 4.5rem;
     padding-left: 0.5rem;
 }
-.dst-text p{
+
+.dst-text p {
     line-height: 2rem;
 }
-footer{
+
+footer {
     background-color: #0c3b67;
     text-align: center;
     color: #fff;
     line-height: 2rem;
 }
-.fot-info{
+
+.fot-info {
     width: 1000px;
     margin: auto;
 }
-.tel{
+
+.tel {
     font-size: 1.5rem;
     padding-top: 0.8rem;
 }
-.fot-text{
+
+.fot-text {
     color: #ccc;
     font-size: 0.8rem;
 }
-.fot-text2{
+
+.fot-text2 {
     border: solid;
     width: 500px;
     margin: 20px auto;
     padding: 0.6rem;
 }
-.fot-info2{
+
+.fot-info2 {
     padding-bottom: 2.5rem;
     padding-top: 1rem;
 }
-.cookie a{
+
+.cookie a {
     font-size: 0.8rem;
     color: #fff;
 }
-.footer-nav{
+
+.footer-nav {
     padding-top: 2rem;
     background: #082c4e;
     display: block;
     font-family: 'Oswald',
         sans-serif;
 }
-.footer-nav li{
+
+.footer-nav li {
     display: inline-block;
 }
-.footer-nav a{
+
+.footer-nav a {
     color: #fff;
 }
-address{
+
+address {
     background: url(/image/logo/section5/ft-back.png);
 }

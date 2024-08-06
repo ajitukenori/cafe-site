@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $(".back-slide").slick({
         fade: true,
         autoplay: true,
